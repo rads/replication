@@ -1,3 +1,3 @@
-# @rads/replication
+# replication
 
 Simple replication primitives.
