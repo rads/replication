@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/rads/replication",
   "author": "Radford Smith",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/**.js",
+    "watch-test": "find {src,test}/* | entr -d npm test"
+  },
+  "devDependencies": {
+    "browserify": "14.0.0",
+    "tape": "4.6.3",
+    "watchify": "3.9.0"
+  },
+  "dependencies": {}
 }
