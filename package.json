@@ -2,7 +2,6 @@
   "name": "@rads/replication",
   "version": "0.1.0",
   "description": "Simple replication primitives",
-  "main": "index.js",
   "repository": "https://github.com/rads/replication",
   "author": "Radford Smith",
   "license": "MIT",
